@@ -1,6 +1,7 @@
 body {
   background-color: #111;
   font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+  overflow-y:scroll; /* add a scroll bar to all pages */
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
 
 .content-container {
   margin: 0 auto; /* center everything */
-  width: 50%; /* container is half the size */
+  width: 90%; /* container is half the size */
 }
 
 .content-top {
@@ -42,6 +43,11 @@ h1 {
   margin: 0; /* Make sure margin is zero */
   color: #111;
   text-decoration: none;
+}
+
+/* Make links blue-purple on hover */
+.menu li a:hover {
+	color: #6600EA; /* blue-purple */
 }
 
 /* Menu End */
