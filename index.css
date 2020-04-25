@@ -20,7 +20,7 @@ h1 {
   text-align:center;
 }
 
-.img img {
+div.img {
 	display: inline-block;
 	width: 825px;
 }
